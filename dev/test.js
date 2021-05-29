@@ -18,6 +18,6 @@ bitcoin.createNewTransaction(101, 'gfhjhg', 'vhfdghjk');
 bitcoin.createNewTransaction(101, 'gfhjhg', 'vhfdghjk');
 bitcoin.createNewTransaction(101, 'gfhjhg', 'vhfdghjk');
 
-bitcoin.createNewBlock(102, 'fghjkhj', 'ghjk');
-
-console.log(bitcoin.chain[3]);
+//console.log(bitcoin);
+console.log(bitcoin.getLastBlock());
+console.log(bitcoin.createNewTransaction(101, 'gfhjhg', 'vhfdghjk'));
